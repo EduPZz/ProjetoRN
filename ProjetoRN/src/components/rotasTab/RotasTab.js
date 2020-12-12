@@ -3,6 +3,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Perfil from '../../views/Perfil/Perfil';
 import Camisetas from '../../views/Camisetas/Camisetas';
 import Home from '../../views/Home/Home';
+import Aluno from '../../views/Aluno/Aluno';
 import { FontAwesome5 } from '@expo/vector-icons';
 
 const Tab = createBottomTabNavigator();
@@ -11,6 +12,7 @@ const icones = {
     Home: { name: 'home' },
     Camisetas: { name: 'tshirt' },
     Perfil: { name: 'users' },
+    Aluno: { name: 'user-edit' },
 }
 
 const RotasTab = () => {
@@ -46,6 +48,7 @@ const RotasTab = () => {
         }}
       />
       <Tab.Screen name="Perfil" component={Perfil} />
+      <Tab.Screen name="Aluno" component={Aluno} initialParams={{aluno: {}, operacao: 'adicionar'}}/>
     </Tab.Navigator>
   ); 
 }

@@ -33,7 +33,7 @@ function Home({ navigation }) {
                             <Text style={estiloHome.botaoTexto1}>Camisetas</Text>
                     </TouchableOpacity>
 
-                    <View style={{height: 20}} /> 
+                    <View style={{height: 40}} /> 
 
                     <TouchableOpacity onPress={abrirPerfil} style={estiloHome.botao2}>
                             <Text style={estiloHome.botaoTexto2}>Perfil</Text>

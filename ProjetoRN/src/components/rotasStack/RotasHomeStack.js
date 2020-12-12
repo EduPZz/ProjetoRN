@@ -21,5 +21,4 @@ const RotasHomeStack = () => {
         </Stack.Navigator>
     );
 }
-
 export default RotasHomeStack;

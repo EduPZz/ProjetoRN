@@ -6,7 +6,7 @@ const estiloPerfil = StyleSheet.create({
       backgroundColor: '#B2DFC3'   
    },
    header: {
-      height: 115,
+      height: 110,
       width: '100%',
       justifyContent: 'center',   
       alignItens: 'center',
@@ -60,6 +60,13 @@ const estiloPerfil = StyleSheet.create({
        color: '#CA419C',
        fontFamily: 'Calisto-MT',
        fontSize: 35
+   },
+   botoes:  {
+      height: 50,
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      padding: 5,
    }
 });
 
